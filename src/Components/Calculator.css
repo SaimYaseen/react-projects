@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cal {
+    max-width: 25vw;
+    max-height: 1500px;
+}
+
+.body {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(45deg, rgb(59, 59, 59), black); */
+}
+
+.button {
+    text-align: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+}
+
+.button:hover {
+    transform: scale(90%);
+}
+
+.button-orange {
+    background-color: orange;
+}
+
+.button-grey {
+    background-color: rgb(168, 166, 166);
+}
+
+.button-grey-opacity {
+    background-color: gray;
+}
+
+.output {
+    /* border: 1px solid white; */
+    height: 40px;
+    color: black;
+    font-size: large;
+    width: 20vw;
+    background: transparent;
+    text-align:right;
+    border: none;
+}

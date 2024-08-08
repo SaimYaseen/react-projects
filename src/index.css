@@ -1,0 +1,116 @@
+#copyIcon{
+  position: relative;
+  top: -40px;
+  right: -1080px;
+}
+#copyIcon:hover{
+  cursor: pointer;
+}
+.main{
+  height: 90vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* text-align: center; */
+  /* flex-direction: column; */
+  /* border: 2px solid black; */
+}
+
+.toDo h2 img{
+  width: 40px;
+}
+#todoInput{
+  
+  
+  width: 300px;
+  background: transparent;
+  padding-left: 15px;
+  outline: none;
+  border: none;
+  height: 50px;
+
+}
+.todoInputfield{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(224, 224, 224);
+  border-radius:30px;
+  margin-top: 15px;
+}
+.addButton{
+  border: none;
+  outline: none;
+  /* background-color: #ff5945; */
+  color: #fff;
+  border-radius: 30px;
+  padding: 0px 25px;
+}
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+/* Create a custom radio button */
+.custom-radio label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  display: inline-block;
+  /* line-height: 20px; */
+  font-size: large;
+}
+
+/* Create the circle for the custom radio button */
+.taskText::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  /* border: 2px solid #000; */
+  /* background: #fff; */
+  background-image: url(./Components/images/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+.taskTextChecked::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  /* border: 2px solid #000; */
+  /* background: #fff; */
+  background-image: url(./Components/images/checked-blue.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+/* Create the dot for the checked state */
+/* .custom-radio input[type="radio"]:checked+label::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-image: url(./Components/images/checked-blue.png);
+} */
+
+/* .custom-radio input[type="radio"]:checked + label::before {
+  background-image: url(./Components/images/checked-blue.png);
+} */
+.cancleIcon{
+  margin-left: 50px;
+}
+.spacBetween{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
